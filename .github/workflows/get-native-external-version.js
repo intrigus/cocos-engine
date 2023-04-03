@@ -5,5 +5,5 @@ const configJsonPath = path.join(__dirname, '../../native/external-config.json')
 const configData = fs.readFileSync(configJsonPath);
 const config = JSON.parse(configData);
 const externalVersion = config.from.checkout;
-console.log("LOLOLOL");
+console.log("LOLOLOLOL");
 console.log(externalVersion);
